@@ -1,0 +1,123 @@
+h1 {
+  color: black;
+  background-color: rgb(146, 155, 197);
+  border-radius: 4%;
+  padding: auto 50%;
+  width: fit-content; /* con width: fit-content limita el fondo al contenido/ultima letra */
+  margin-left: 37%;
+}
+
+p {
+  color: rgb(31, 223, 95);
+  /* Con "color" definis el color de todos los P */
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(100, 100, 99);
+  width: fit-content;
+  border-radius: 4%;
+  padding: 1px;
+  margin-left: 10%;
+}
+
+#fondo-body { 
+  background-color: #0c192c;
+}
+
+.imagen-programacion {
+  border-radius: 5%;
+  width: 350px; /* Ancho de la imagen */
+  height: 280px; /* Alto de la imagen */
+  padding: -20%;
+  margin-inline: 6%;
+  margin-top: auto;
+  position: fixed;
+  right: 1300px;
+  /* DISEÑO */
+  border: 3px solid rgb(255, 255, 255); /* Borde de 2 píxeles de grosor y color negro */
+
+  /* DISEÑO */
+}
+
+.imagen-persona {
+  border-radius: 4%;
+  width: 300px; /* Ancho de la imagen */
+position: fixed;
+right: 595px;
+  height: 280px; /* Alto de la imagen */
+  /* DISEÑO */
+  border: 3px solid rgb(0, 0, 0); /* Borde de 2 píxeles de grosor y color negro */
+  margin-inline: 10%;
+
+  /* DISEÑO */
+}
+
+.imagen-estudiar {
+ position: fixed;
+  border-radius: 4%;
+  width: 300px; /* Ancho de la imagen */
+  height: 280px; /* Alto de la imagen */
+  margin-inline: 7%;
+  right: 10px;
+  /* DISEÑO */
+  border: 3px solid rgb(252, 252, 252); /* Borde de 2 píxeles de grosor y color negro */
+
+  /* DISEÑO */
+}
+
+.contenedor-flex {
+  color: aqua;
+  background-color: rgb(146, 155, 197);
+  border-radius: 10px;
+  margin-left: 5px;
+  width: 21%;
+  display: flex;
+  list-style: none; /* Eliminar los estilos de la lista */
+  width: 100%;
+  padding: 15px;
+  height: 8px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.container {
+
+  height: -1px;
+
+}
+
+.contenedor-flex li {
+  margin-right: 55px; /* Añadir espacio entre los elementos */
+}
+
+.Barra-navegacion {
+  background-color: rgb(36, 36, 68);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  max-height: 50px;
+  align-items: center;
+}
+
+
+html {
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+/* MEDIA QUERY PARA CREAR DIFERENTES TAMAÑOS Y ADAPTAR IMAGENES */
+
+/* Tamaño pequeño (móviles) */
+@media only screen and (max-width: 599px) {
+
+  /* Estilos CSS para dispositivos pequeños */
+}
+
+/* Tamaño mediano (tablets y pequeñas pantallas) */
+@media only screen and (min-width: 600px) and (max-width: 959px) {
+  /* Estilos CSS para dispositivos medianos */
+}
+
+/* Tamaño grande (escritorios y pantallas grandes) */
+@media only screen and (min-width: 960px) {
+  /* Estilos CSS para dispositivos grandes */
+}
